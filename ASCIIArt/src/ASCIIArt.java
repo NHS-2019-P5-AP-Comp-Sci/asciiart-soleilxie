@@ -18,10 +18,30 @@
 
 public class ASCIIArt {
 	public static void main (String [] args) {
-		System.out.println("THIS IS MY ASCII ART!!!!");
-		System.out.println("THIS IS MY ASCII ART!!!!");
-		System.out.println("THIS IS MY ASCII ART!!!!");
-		System.out.println("THIS IS MY ASCII ART!!!!");
-		System.out.println("THIS IS MY ASCII ART!!!!");
+		topOfTree();
+		middleOfTree();
+		bottomOfTree();
+		stemOfTree();
+		System.out.println();
+		System.out.println("----------------");
+		System.out.println("\"A snowy christmas tree\"");
+	}
+	public static void topOfTree() {
+		System.out.println("    <^^> ");
+	}
+	public static void middleOfTree() {
+		System.out.println("    /  \\");
+		System.out.println("   /  * \\");
+		System.out.println("  /*     \\");
+		System.out.println(" /      * \\");
+		System.out.println("/    *     \\");
+		
+	}
+	public static void bottomOfTree() {
+		System.out.println("\\/\\/\\/\\/\\/\\/");
+	}
+	public static void stemOfTree() {
+		System.out.println("    |  |");
+		System.out.println("    |  |");
 	}
 }
